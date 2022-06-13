@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Montserrat;
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+
+.row-no-padding {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row-no-padding [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#contact-fixed{
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+    position: fixed;
+    right: 1%;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-fixed i{
+    color: white;
+    font-size: 45px;
+}
+
+#contact-fixed div{
+    display: flex;
+    width: 70%;
+    border-radius: 50%;
+    background-color: #2696E9;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+}
+
+#contact-fixed div:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#contact-fixed img{
+    width: 100%;
+}
+
+.header{
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.header__contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background : #22b62f;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.header__contact span{
+    padding: 5px 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: 450;
+    color: white;
+    font-size: 13px;
+}
+
+.header__contact img{
+    width:17px;
+    padding-right: 3px; 
+}
+
+.header__logo{
+    padding: 10px;
+    display: flex;
+    margin-left: 20%;
+}
+
+.header__logo img{
+    width: 50%;
+}
+
+.header__search-left{
+    color: white;
+    background-color: #2696E9;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px 5px;
+    padding: 6px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.header__search-right{
+    color: #222;
+    background-color: #dbdee1;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px 5px;
+    padding: 6px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nav-item a{
+    text-align: center;
+    padding: 10px 16px !important;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-link{
+    color: #2696E9 !important;
+}
+
+.dropdown-toggle::after {
+    color: #22b62f;
+}
+
+.dropdown-toggle:active{
+    color: #22b62f !important;
+}
+
+.dropdown-toggle:active:after {
+    border-top: 0;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.3em solid;
+    border-left: 0.3em solid transparent;
+}
+
+.introduction-figure{
+    margin-top: 100px;
+}
+
+.introduction-figure .row{
+    width: 80%;
+}
+
+.introduction-figure .col-md-6{
+    padding: 0px 40px;
+}
+
+.introduction-figure img{
+    border-radius: 8px;
+}
+
+.service-section-horizon-line{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.service-section-horizon-line b{
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+
+.service-section-horizon-line span{
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 766px) {
+    .header__contact span{
+        padding: 3px 0px;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-weight: 450;
+        color: white;
+        font-size: 7px;
+    }
+
+    .header__contact span i{
+        display: none;
+    }
+
+    .header__logo{
+        margin-left: 0px;
+        justify-content: center;
+    }
+}
+
+@keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+
+
