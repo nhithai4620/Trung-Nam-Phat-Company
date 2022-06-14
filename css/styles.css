@@ -458,6 +458,7 @@ body{
 .footer-container-bottom p{
     color: white;
     padding-bottom: 25px;
+    text-align: left;
     
 }
 
@@ -572,6 +573,10 @@ body{
 
     .products-grids-card{
         padding: 0px 30px;
+    }
+
+    .thumb-wrapper{
+        margin: 30px 0px;
     }
 
     .footer-container-bottom{
