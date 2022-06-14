@@ -581,7 +581,7 @@ body{
     }
 
     .header__contact span{
-        padding: 3px 0px;
+        padding: 2px 0px;
         margin-left: 1%;
         margin-right: 1%;
         font-weight: 450;
@@ -612,6 +612,10 @@ body{
 
     .header__search-right__res{
         display: block;
+    }
+
+    .service-section-horizon-line span{
+        font-size: 20px;
     }
 
     .introduction-figure{
