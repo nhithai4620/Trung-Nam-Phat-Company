@@ -100,6 +100,11 @@
             </div>
             <div>
               <img src="./assets/Icon/zalo.png" alt="zalo_icon">
+            </div>
+            <div id="scroll-to-top" class="move-to-top-btn" onclick="topFunction()">
+              <i class="fa fa-angle-up" aria-hidden="true"></i>
+              <br/>
+              <p >TOP</p>
             </div>  
         </div>
         <div class="container-fluid">
@@ -298,6 +303,36 @@
         </div>
       </div>
 
+      <div class="container-fluid">
+        <div>
+          <h2 class="service-section-horizon-line">
+            <b></b>
+            <span>LĨNH VỰC KINH DOANH</span>
+            <b></b>
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="business-area-item">
+              <img src="./assets/Slider/linh-vuc-kinh-doanh-1.jpg" alt="">
+              <span>IN OFFSET</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="business-area-item">
+              <img src="./assets/Slider/linh-vuc-kinh-doanh-2.jpg" alt="">
+              <span>IN FLEXO</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="business-area-item">
+              <img src="./assets/Slider/linh-vuc-kinh-doanh-3.jpg" alt="">
+              <span>IN NHANH</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <div class="container-fuild">
         <div>
@@ -463,6 +498,27 @@
           </div>
         </div>
       </div>
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("scroll-to-top");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
     </footer>
 </body>
 </html>

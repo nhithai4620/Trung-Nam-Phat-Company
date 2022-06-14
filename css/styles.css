@@ -59,6 +59,31 @@ body{
     width: 100%;
 }
 
+#contact-fixed .move-to-top-btn{
+    background-color: #9c9e9f;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    position: fixed;
+    right: 2%;
+    bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+#contact-fixed .move-to-top-btn i{
+    font-size: 28px;
+    color: black
+}
+
+#contact-fixed .move-to-top-btn p{
+    text-align: center;
+    padding-top: 0px !important
+}
+
 .header{
     display: block;
     position: -webkit-sticky;
@@ -361,6 +386,29 @@ body{
 	border: none;
 }
 
+.business-area-item{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.business-area-item > span{
+    position: absolute;
+    bottom: 0px;
+    background-color: #0000007c;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.business-area-item img{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+
 .best-seller-slider{
     padding: 20px 10% 100px;
 }
@@ -516,6 +564,19 @@ body{
     
     #contact-fixed i{
         font-size: 25px;
+    }
+
+    #contact-fixed .move-to-top-btn{
+        width: 30px;
+        height: 30px;
+    }
+
+    #contact-fixed .move-to-top-btn i{
+        font-size: 15px;
+    }
+
+    #contact-fixed .move-to-top-btn p{
+        font-size: 10px;
     }
 
     .header__contact span{
