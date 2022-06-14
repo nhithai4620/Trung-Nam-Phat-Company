@@ -25,7 +25,7 @@ body{
     width: 100px;
     z-index: 2;
     position: fixed;
-    right: 1%;
+    right: 30px;
     top: 200px;
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ body{
     height: 60px;
     z-index: 2;
     position: fixed;
-    right: 2%;
+    right: 50px;
     bottom: 20px;
     border-radius: 50%;
     text-align: center;
@@ -411,6 +411,7 @@ body{
 
 .best-seller-slider{
     padding: 20px 10% 100px;
+    margin-right: 0px !important;
 }
 
 #carousel-control{
