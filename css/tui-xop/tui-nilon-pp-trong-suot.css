@@ -1,6 +1,14 @@
 .content-padding{
-    padding: 20px 5% !important;
+    padding: 5px 3% !important;
     margin: 0px !important;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+section{
+    background-color: rgba(209, 209, 209, 0.273);
 }
 
 .right-arrow {
@@ -66,4 +74,107 @@
 
 .web-path{
     margin: 0px 0 0 60px;
+}
+
+.header-banner-main{
+    background-color: #fff;
+    padding: 15px;
+}
+
+.header-banner-main > .col-md-6{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.header-banner-contact{
+    background-color: #fff !important;
+}
+
+.header-banner__table table,th,td{
+    border: 1px solid rgba(147, 193, 223, 0.791)
+}
+
+.header-banner__table h5{
+    font-size: 25px;
+}
+
+.header-banner__table p{
+    text-align: left;
+    font-size: 18px;
+    padding: 5px !important;
+}
+
+.header-banner__table button{
+    padding: 10px 40px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.header-banner-main img{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+
+.header-banner-contact-top{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #05b62f;
+    color: #fff;
+}
+
+.header-banner-contact-top h5{
+    margin-bottom: 0px !important;
+    font-size: 16px;
+}
+
+.header-banner-contact-img img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.col-md-2{
+    background-color: #fff;
+}
+
+@media screen and (max-width: 766px) {
+    .header-banner__table h5{
+        font-size: 20px;
+    }
+    
+    .header-banner__table{
+        margin-top: 20px;
+    }
+
+    .header-banner__table button{
+        margin-bottom: 20px;
+    }
+
+    .right-arrow {
+        display: inline-block;
+        position: relative;
+        background: #2f89cb;
+        padding: 10px;
+        color: white;
+        font-weight: 500;
+        margin-right: 50px;
+        text-align: left;
+    }
+
+    .web-path{
+        display: none;
+    }
+    
+    .content-padding{
+        padding: 10px 1% !important;
+        margin: 0px !important;
+    }
+
+    .no-padding{
+        margin: 10px 4% !important;
+    }
 }
