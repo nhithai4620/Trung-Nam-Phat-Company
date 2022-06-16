@@ -177,4 +177,10 @@ section{
     .no-padding{
         margin: 10px 4% !important;
     }
+
+    .header-banner-contact-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
