@@ -1,3 +1,5 @@
+
+
 .spacing-top{
     margin-top: 30px;
 }
@@ -13,6 +15,10 @@
 
 .no-padding{
     padding: 0px !important;
+}
+
+.no-margin{
+    margin: 0px !important;
 }
 
 section{
@@ -178,6 +184,7 @@ section{
 
 .main-content-details p{
     text-align: justify;
+    font-size: 18px;
 }
 
 .main-content-img{
@@ -209,6 +216,7 @@ section{
 
 .main-content-container li{
     margin-top: 10px;
+    font-size: 18px;
 }
 
 .main-content-container__table{
@@ -223,15 +231,58 @@ section{
     align-items: center;
 }
 
+
 .main-content-container__table-img img{
     width: 100%;
     max-width: 300px;
     height: auto;
 }
 
+.main-content-img-order img{
+    width: 100%;
+    height: auto;
+}
+
+.main-content-more-products .d-flex{
+    padding: 20px 5%;
+}
+
+.main-content-more-products .d-flex >div{
+    width: 300px;
+    height: auto;
+    margin: 10px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+.main-content-more-products .d-flex >div:hover{
+    box-shadow: none;
+}
+
+.main-content-more-products .d-flex >div img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.main-content-more-products .d-flex >div p{
+    text-align: center;
+    color: #2f89cb;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main-content-relate-products .d-flex{
+    padding: 20px 0.5% !important;
+}
 
 
 @media screen and (max-width: 766px) {
+
+    .header-banner-main{
+        margin-right: 0px;
+    }
+
     .header-banner__table h5{
         font-size: 20px;
     }
@@ -260,12 +311,8 @@ section{
     }
     
     .content-padding{
-        padding: 10px 1% !important;
+        padding: 10px 0.5% !important;
         margin: 0px !important;
-    }
-
-    .no-padding{
-        margin: 10px 4% !important;
     }
 
     .header-banner-contact-img {
@@ -273,4 +320,10 @@ section{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .main-content-details{
+        padding: 10px 2%;
+        background-color: #fff;
+    }
+    
 }
