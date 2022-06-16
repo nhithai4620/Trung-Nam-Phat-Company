@@ -1,5 +1,13 @@
+.spacing-top{
+    margin-top: 30px;
+}
+
+.spacing-bottom{
+    margin-bottom: 30px;
+}
+
 .content-padding{
-    padding: 5px 3% !important;
+    padding:0px 3% !important;
     margin: 0px !important;
 }
 
@@ -79,6 +87,7 @@ section{
 .header-banner-main{
     background-color: #fff;
     padding: 15px;
+    margin-right: 10px;
 }
 
 .header-banner-main > .col-md-6{
@@ -140,6 +149,87 @@ section{
 .col-md-2{
     background-color: #fff;
 }
+
+.main-content-description{
+    border-bottom: 2px solid rgb(8, 176, 61);
+}
+
+.shape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(12, 176, 64);
+    width:300px;
+    height:40px;
+    line-height:60px;
+    color:white;
+    position:relative;   
+}
+
+.shape h3{
+    font-size: 20px;
+    margin: 0px !important;
+}
+
+.main-content-details{
+    padding: 10px 5%;
+    background-color: #fff;
+}
+
+.main-content-details p{
+    text-align: justify;
+}
+
+.main-content-img{
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-img img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.main-content-img > div p{
+    text-align: center;
+}
+
+.main-content-container{
+
+}
+
+.main-content-container h4{
+    font-weight: bold;
+}
+
+.main-content-container ul{
+    padding-left: 20px;
+}
+
+.main-content-container li{
+    margin-top: 10px;
+}
+
+.main-content-container__table{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content-container__table-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-container__table-img img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+
 
 @media screen and (max-width: 766px) {
     .header-banner__table h5{

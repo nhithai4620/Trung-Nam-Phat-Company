@@ -460,6 +460,10 @@ body{
     padding-top: 10px;
 }
 
+.thumb-content h4{
+    font-size: 16px;
+}
+
 .thumb-content a{
     display: block;
     margin: auto;
