@@ -230,7 +230,6 @@ body{
 }
 
 .products-grids-card .mt-50{
-
     margin-top: 50px;
 }
 
@@ -614,7 +613,7 @@ body{
     }
 
     .service-section-horizon-line{
-        margin: 20px 0;
+        margin: 10px 0 !important;
     }
 
     .service-section-horizon-line span{
@@ -644,8 +643,21 @@ body{
         display: none;
     }
 
+    .introduction-figure br{
+        display: none;
+    }
+
+    .introduction-figure a{
+        display: block;
+    }
+
     .products-grids-card{
         padding: 0px 10px;
+        margin: 0px 0px !important;
+    }
+
+    .products-grids-card .mt-50{
+        margin-top: 10px;
     }
 
     .thumb-wrapper{
