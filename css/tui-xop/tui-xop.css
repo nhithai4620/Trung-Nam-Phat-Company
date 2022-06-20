@@ -1,3 +1,7 @@
+h1,p{
+    margin-bottom: 0px !important;
+}
+
 .content-padding{
     padding: 20px 5% !important;
     margin: 0px !important;
@@ -13,6 +17,7 @@
 
 .header-service-banner p{
     text-align: justify;
+    font-size: 16px;
 }
 
 .header-banner__img{
@@ -91,7 +96,7 @@
 }
 
 .service-content p,li{
-    font-size: 19px;
+    font-size: 16px;
     text-align: justify;
 }
 

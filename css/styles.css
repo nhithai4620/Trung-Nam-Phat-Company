@@ -265,6 +265,7 @@ body{
 
 .card-body p{
     height: 140px;
+    margin: 0px !important
 }
 
 .products-grids-card .card-img{
