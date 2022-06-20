@@ -484,8 +484,9 @@ body{
 
 .footer-container-bottom p{
     color: white;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     text-align: left; 
+    margin-bottom: 0px !important;
 }
 
 .footer-container-bottom h3{
@@ -559,8 +560,8 @@ body{
 
     .header__contact span{
         padding: 2px 0px;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
         font-weight: 450;
         color: white;
         font-size: 11px;
@@ -589,7 +590,7 @@ body{
         position: absolute;
         content: "THIẾT KẾ & IN ẤN BAO BÌ TRUNG NAM PHÁT";
         color: black;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
         padding-top: 30px;
         bottom: -10px;
@@ -632,6 +633,10 @@ body{
 
     .introduction-figure .col-md-6 h1{
         font-size: 20px;
+    }
+
+    .introduction-figure span{
+        display: none;
     }
 
     .products-grids-card{
