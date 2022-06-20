@@ -612,6 +612,10 @@ body{
         margin-bottom: 10px;
     }
 
+    .service-section-horizon-line{
+        margin: 20px 0;
+    }
+
     .service-section-horizon-line span{
         font-size: 20px;
     }
@@ -640,11 +644,15 @@ body{
     }
 
     .products-grids-card{
-        padding: 0px 30px;
+        padding: 0px 10px;
     }
 
     .thumb-wrapper{
-        margin: 30px 0px;
+        margin: 10px 0px;
+    }
+
+    .best-seller-slider{
+        padding: 0px 10% 100px;
     }
 
     .footer-container-bottom{
