@@ -510,7 +510,7 @@ body{
 
 .footer-part-1 img{
     width: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-contact-icon{
@@ -665,7 +665,8 @@ body{
     }
 
     .best-seller-slider{
-        padding: 0px 10% 50px;
+        padding: 0px 5% 50px;
+        margin: 0px !important;
     }
 
     .footer-container-bottom{
