@@ -666,6 +666,11 @@ body{
     .footer-contact-icon{
         margin: 10px 0px;
     }
+
+    .footer-contact-icon i{
+        font-size: 20px;
+        padding: 5px;
+    }
     
     .footer-container-bottom p{
         padding-bottom: 5px;
