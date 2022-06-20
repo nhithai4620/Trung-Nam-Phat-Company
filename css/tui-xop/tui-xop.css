@@ -1,5 +1,6 @@
-h1,p{
+h1,p,li{
     margin-bottom: 0px !important;
+    padding-top: 0px !important;
 }
 
 .content-padding{
