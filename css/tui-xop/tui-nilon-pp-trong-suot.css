@@ -196,6 +196,8 @@ section{
     width: 100%;
     max-width: 400px;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 .main-content-img > div p{
@@ -208,6 +210,11 @@ section{
 
 .main-content-container h4{
     font-weight: bold;
+}
+
+.main-content-container p{
+    padding: 5px 0px !important;
+    margin: 0px !important;
 }
 
 .main-content-container ul{
@@ -234,7 +241,7 @@ section{
 
 .main-content-container__table-img img{
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
 }
 
@@ -242,6 +249,7 @@ section{
     width: 100%;
     height: auto;
 }
+
 
 .main-content-more-products .d-flex{
     padding: 20px 5%;
