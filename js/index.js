@@ -34,7 +34,7 @@ function PhanBon(){
     window.location.href = "./section3/baobiphanbon.html";  
 }
 function ThucPham(){
-    window.location.href = "./section4/baobithucpham.html";
+    window.location.href = "./section4/bao-bi-thuc-pham.html";
 }
 
 function BanhKeo(){
