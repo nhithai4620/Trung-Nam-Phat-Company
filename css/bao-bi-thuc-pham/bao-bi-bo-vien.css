@@ -200,6 +200,25 @@ section{
     margin: auto;
 }
 
+.main-content-img__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 5%;
+}
+
+.main-content-img__list >div{
+    margin: 10px 10px;
+}
+
+.main-content-img__list img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 .main-content-img > div p{
     text-align: center;
 }
