@@ -27,7 +27,7 @@ function TuiXop(){
 }
 
 function Zipper(){
-    window.location.href = "./section2/tuizipper.html";       
+    window.location.href = "./section6/tui-zipper.html";       
 }
 
 function PhanBon(){

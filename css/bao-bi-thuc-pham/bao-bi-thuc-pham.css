@@ -1,4 +1,6 @@
-
+.container-fluid{
+    padding: 0px !important;
+}
 
 .content-padding{
     padding: 20px 5% !important;
@@ -136,5 +138,40 @@
     }
     .col-md-6{
         padding: 0px !important;
+    }
+
+    .web-path{
+        margin: 0px 0 0 40px;
+    }
+
+    .right-arrow {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .right-arrow:after {
+        margin-top: -14px;
+        border-top: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-bottom: 14px solid transparent;
+        border-left: 14px solid #2f89cb;
+    }
+    
+    .right-arrow:before {
+        margin-top: -14px;
+        border-top: 14px solid #2f89cb;
+        border-right: 14px solid #2f89cb;
+        border-bottom: 14px solid #2f89cb;
+        border-left: 14px solid transparent;
+    }
+
+    .right-arrow:nth-child(2):after {
+        border-left: 14px solid #05b62f;
+    }
+    
+    .right-arrow:nth-child(2)::before {
+        border-top: 14px solid #05b62f;
+        border-right: 14px solid #05b62f;
+        border-bottom: 14px solid #05b62f;
     }
 }
