@@ -30,8 +30,8 @@ function Zipper(){
     window.location.href = "./section6/tui-zipper.html";       
 }
 
-function PhanBon(){
-    window.location.href = "./section3/baobiphanbon.html";  
+function TemNhan(){
+    window.location.href = "./section3/tem-nhan-decal.html";  
 }
 function ThucPham(){
     window.location.href = "./section4/bao-bi-thuc-pham.html";
