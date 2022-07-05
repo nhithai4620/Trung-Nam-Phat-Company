@@ -38,5 +38,5 @@ function ThucPham(){
 }
 
 function BanhKeo(){
-    window.location.href = "./section5/baobibanhkeo.html";
+    window.location.href = "./section7/bao-bi-banh-keo.html";
 }
