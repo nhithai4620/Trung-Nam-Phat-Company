@@ -40,3 +40,7 @@ function ThucPham(){
 function BanhKeo(){
     window.location.href = "./section7/bao-bi-banh-keo.html";
 }
+
+function Giay(){
+  window.location.href = "./section5/bao-bi-giay.html";
+}
