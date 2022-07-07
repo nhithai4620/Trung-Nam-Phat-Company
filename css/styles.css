@@ -134,6 +134,7 @@ body{
     padding: 6px 15px;
     border-radius: 15px;
     text-align: center;
+    display: none;
 }
 
 .header__search-right{
@@ -144,7 +145,15 @@ body{
     margin: 10px 5px;
     padding: 6px 15px;
     border-radius: 15px;
-    text-align: center;
+    text-align: left;
+    width: 200px;
+    position: relative;
+}
+
+.header__search-right i{
+    position: absolute;
+    right: 10px;
+    padding: 3px;
 }
 
 .nav-item a{
