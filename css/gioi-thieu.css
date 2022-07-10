@@ -2,6 +2,10 @@ p{
     font-size: 18px;
 }
 
+strong{
+    text-transform: uppercase;
+}
+
 #intro-maincontainer{
    margin: 30px 14%;
 }
