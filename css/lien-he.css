@@ -1,50 +1,4 @@
-p{
-    text-align: left;
-}
-
-.contact {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background-color:white;
-    color: black;
-    padding: 164px 0 184px 0;
-    height: 100%;
-    font-family: Montserrat;
-}
-
-.contact h1 {
-    font-size: 2.5em;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 12px;
-    font-weight: normal;
-}
-.contact-text {
-    padding-top: 16px;
-    width: 49%;
-}
-.contact-form {
-    width: 49%;
-}
-
-.section-body-info h3{
-    font-size: 20px;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.title-infor{
-    margin-left: 100px;
-}
-
-.section-body-info i{
-    font-size: 30px;
-    color: rgb(42, 42, 123);
-    font-weight: bold;
-}
-
-.section-title-contact{
+.contact__header{
     position: relative;
     display: flex;
     flex-flow: row wrap;
@@ -54,7 +8,7 @@ p{
     margin: 50px 0;
 }
 
-.section-title-contact b{
+.contact__header b{
     display: block;
     flex: 1;
     height: 2px;
@@ -62,79 +16,90 @@ p{
     background-color: currentColor;
 }
 
-.section-title-contact span{
+.contact__header span{
     text-align: center;
     font-weight: bold;
 }
 
-.section-body-container-100000{
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+p{
+    text-align: left;
 }
 
-.section-body-container-100000 h3{
+p,i,h4,h3{
+    color: rgb(7, 7, 129) !important
+}
+
+.contact__main{
+    padding: 10px 8% 0px 12%;
+}
+
+.contact__main-header h4{
     font-weight: bold;
-    padding: 10px 0px;
 }
 
-.section-body-container-100000 p{
-    font-weight: bold;
+.contact__main-body{
+    margin: 0px 5%;
 }
 
-.section-body-container-100000 >div{
-    margin: 0 10px;
+.contact__items{
+    padding: 0 10px;
+    margin: 20px;
 }
 
-.section-body-row{
-    display: flex;
-    justify-content: center;
-}
-
-.section-body-row div{
-    flex: 30%;
-    padding-bottom: 40px;
-    margin-left: 30px;
-}
-
-#send{
-    margin-left: 15%;
-    flex: 50%
-}
-
-#send-form input{
-    margin-bottom: 20px;
-    width: 400px;
+.contact__items i{
+    font-size: 30px;
     padding: 10px;
 }
 
-#send-form button{
-    padding: 10px 20px;
-    margin-bottom: 50px;
-    background-color: rgba(92, 140, 243, 0.743);
+.contact__items p{
+    font-weight: 600;
+}
+
+.contact__send-email input{
+    width: 400px;
+    height: 50px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+#map{
+    padding: 20px;
+    width: 600px !important;
+    height: 400px !important;
+}
+
+.contact__send-email button{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
     border: none;
+    margin: 10px 0px;
+    font-weight: 600
 }
 
-#map {
-    flex: 50%;
-    height: 500px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-}
-
-.section-send-map{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-
-@media (max-width: 750px) {
-    .contact h1 {
-        font-size: 18px;
+@media screen and (max-width: 1140px) {
+    .contact__main{
+        padding: 0px 10px;
     }
-    .contact-text {
-        font-size: 13px;
+    .contact__main-body{
+        margin: 0px 1%;
+    }
+    .contact__items{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contact__send-email input{
+        width: 300px;
+        height: 30px;
+        margin: 5px 0px;
+        border-radius: 10px;
+    }
+
+    #map{
+        padding: 0px;
+        width: 300px !important;
     }
 }
+
