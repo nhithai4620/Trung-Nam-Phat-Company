@@ -10,12 +10,16 @@ strong{
    margin: 30px 14%;
 }
 
+.col-md-6{
+    padding: 0px !important;
+}
+
 .intro-section{
-    margin-top: 50px;
+
 }
 
 .intro-section h3{
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
     font-weight: 600;
     color: rgb(13, 213, 13);
@@ -25,7 +29,7 @@ strong{
     text-align: justify;
 }
 
-.intro-section ul,li{
+.intro-section >  ul li{
     font-size: 18px;
     margin-top: 10px;
 }
@@ -36,16 +40,30 @@ strong{
 }
 
 .container-intro-01-img{
-    flex: 50%;
     padding-right: 20px;
 }
 
 .container-intro-01-content{
-    flex: 50%;
 }
 
 .container-intro-01 img{
     width: 100%;
     height: 100%;
     padding: 10px;
+}
+
+@media screen and (max-width: 920px) {
+    #intro-maincontainer{
+        margin: 10px 0%;
+    }
+
+    .container-intro-01-img{
+        padding-right: 0px;
+    }
+
+    .intro-section{
+        width: 100%;
+        padding: 10px;
+        margin-right: 20px !important;
+    }
 }

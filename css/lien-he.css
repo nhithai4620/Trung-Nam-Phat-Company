@@ -25,13 +25,15 @@ p{
     text-align: left;
 }
 
-p,i,h4,h3{
-    color: rgb(7, 7, 129) !important
+p,h4,h3{
+    color: rgb(7, 7, 129);
 }
+
 
 .contact__main{
     padding: 10px 8% 0px 12%;
 }
+
 
 .contact__main-header h4{
     font-weight: bold;
@@ -47,8 +49,9 @@ p,i,h4,h3{
 }
 
 .contact__items i{
-    font-size: 30px;
-    padding: 10px;
+    font-size: 45px !important;
+    padding: 5px;
+    color: rgb(7, 7, 129) !important;
 }
 
 .contact__items p{
@@ -78,7 +81,7 @@ p,i,h4,h3{
     font-weight: 600
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 920px) {
     .contact__main{
         padding: 0px 10px;
     }
