@@ -1,307 +1,615 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trung Nam Phát Design</title>
-    <link rel="icon" type="image/x-icon" href="./assets/Icon/logo_favicon-01.png">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trung Nam Phát - Thiết kế in ấn bao bì #1</title>
+    <meta name="title" content="Trung Nam Phát - Thiết kế in ấn bao bì #1" />
+    <meta
+      name="description"
+      content="Bao bì Trung Nam Phát - Chuyên thiết kế, in ấn bao bì nhựa: bao bì phân bón, thuốc bvtv, bao bì thực phẩm, màng ép ly nhựa, túi nilon,...Thiết kế 100% miễn phí."
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://baobitrungnamphat.com/" />
+    <meta
+      property="og:title"
+      content="Trung Nam Phát - Thiết kế in ấn bao bì #1"
+    />
+    <meta
+      property="og:description"
+      content="Bao bì Trung Nam Phát - Chuyên thiết kế, in ấn bao bì nhựa: bao bì phân bón, thuốc bvtv, bao bì thực phẩm, màng ép ly nhựa, túi nilon,...Thiết kế 100% miễn phí."
+    />
+    <meta property="og:image" content="" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://baobitrungnamphat.com/" />
+    <meta
+      property="twitter:title"
+      content="Trung Nam Phát - Thiết kế in ấn bao bì #1"
+    />
+    <meta
+      property="twitter:description"
+      content="Bao bì Trung Nam Phát - Chuyên thiết kế, in ấn bao bì nhựa: bao bì phân bón, thuốc bvtv, bao bì thực phẩm, màng ép ly nhựa, túi nilon,...Thiết kế 100% miễn phí."
+    />
+    <meta property="twitter:image" content="" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/Icon/logo_favicon-01.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/index.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container-fluid">
-            <div class="row-no-padding row">
-                <div class="col-md-12">
-                    <div class="header__contact">
-                        <span >Liên hệ tư vấn : </span><span ><i class="fa fa-location-arrow" aria-hidden="true"></i><a target="_blank" href="https://www.google.com.tw/maps/search/74%2F13%2F7+Li%C3%AAn+Khu+2-5,+P.+B%C3%ACnh+Tr%E1%BB%8B+%C4%90%C3%B4ng,+Q.+B%C3%ACnh+T%C3%A2n,+TP.+HCM/@10.7684784,106.6145919,17z/data=!3m1!4b1">74/13/7 Liên Khu 2-5, P. Bình Trị Đông, Q. Bình Tân, TP. HCM</a> </span><span><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+84 938835138">0938835138  (Ms. Diệu Tiên)</a> </span><span><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+84 988392823">0988392823(Mr. Tùng)</a> </span>
-                    </div>
+      <div class="container-fluid">
+        <div class="row-no-padding row">
+          <div class="col-md-12">
+            <div class="header__contact">
+              <span>Liên hệ tư vấn : </span
+              ><span
+                ><i class="fa fa-location-arrow" aria-hidden="true"></i
+                ><a
+                  target="_blank"
+                  href="https://www.google.com.tw/maps/search/74%2F13%2F7+Li%C3%AAn+Khu+2-5,+P.+B%C3%ACnh+Tr%E1%BB%8B+%C4%90%C3%B4ng,+Q.+B%C3%ACnh+T%C3%A2n,+TP.+HCM/@10.7684784,106.6145919,17z/data=!3m1!4b1"
+                  >74/13/7 Liên Khu 2-5, P. Bình Trị Đông, Q. Bình Tân, TP.
+                  HCM</a
+                > </span
+              ><span
+                ><i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="tel:+84 938835138"
+                  >0938835138 (Ms. Diệu Tiên)</a
+                > </span
+              ><span
+                ><i class="fa fa-phone" aria-hidden="true"></i
+                ><a href="tel:+84 988392823">0988392823(Mr. Tùng)</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-5">
+            <div class="header__logo">
+              <img src="./assets/Icon/logo.png" />
+            </div>
+          </div>
+          <div class="col-xl-7">
+            <div class="row">
+              <div class="col-xl-5 col-6">
+                <div class="header__search-left">
+                  FIND YOUR NEARLEST STOCKIST
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 </div>
+              </div>
+              <div class="col-xl-5 col-6">
+                <div class="header__search-right">
+                  Tìm kiếm <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
             <div class="row">
-                <div class="col-xl-5">
-                    <div class="header__logo">
-                        <img src="./assets/Icon/logo.png"/>
-                    </div>
-                </div>
-                <div class="col-xl-7">
-                    <div class="row">
-                      <div class="col-xl-5 col-6">
-                        <div class="header__search-left">
-                            FIND YOUR NEARLEST STOCKIST <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"
+                          >TRANG CHỦ <span class="sr-only">(current)</span></a
+                        >
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          DỊCH VỤ
+                        </a>
+                        <div
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <a
+                            class="dropdown-item"
+                            href="./section2/tui-xop.html"
+                            >TÚI XỐP, TÚI NILON</a
+                          >
+                          <a
+                            class="dropdown-item"
+                            href="./section3/tem-nhan-decal.html"
+                            >TEM, NHÃN, DECAL</a
+                          >
+                          <a
+                            class="dropdown-item"
+                            href="./section4/bao-bi-thuc-pham.html"
+                            >BAO BÌ THỰC PHẨM</a
+                          >
+                          <a
+                            class="dropdown-item"
+                            href="./section7/bao-bi-banh-keo.html"
+                            >BAO BÌ BÁNH KẸO</a
+                          >
+                          <a
+                            class="dropdown-item"
+                            href="./section6/tui-zipper.html"
+                            >TÚI ZIP</a
+                          >
                         </div>
-                      </div>
-                      <div class="col-xl-5 col-6 ">
-                          <div class="header__search-right">
-                              Tìm kiếm <i class="fa fa-search" aria-hidden="true"></i>
-                          </div>
-                      </div>                    
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <nav class="navbar navbar-expand-lg navbar-light">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                  <span class="navbar-toggler-icon"></span>
-                                </button>
-                              
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                  <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                      <a class="nav-link" href="#">TRANG CHỦ <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          DỊCH VỤ
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                          <a class="dropdown-item" href="./section2/tui-xop.html">TÚI XỐP, TÚI NILON</a>
-                                          <a class="dropdown-item" href="./section3/tem-nhan-decal.html">TEM, NHÃN, DECAL</a>
-                                          <a class="dropdown-item" href="./section4/bao-bi-thuc-pham.html">BAO BÌ THỰC PHẨM</a>
-                                          <a class="dropdown-item" href="./section7/bao-bi-banh-keo.html">BAO BÌ BÁNH KẸO</a>
-                                          <a class="dropdown-item" href="./section6/tui-zipper.html">TÚI ZIP</a>
-                                        </div>
-                                      </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="./section1/lien-he.html">LIÊN HỆ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./section1/gioi-thieu.html">GIỚI THIỆU</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="./section1/goc-chia-se.html">GÓC CHIA SẼ</a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section>
-        <div id="contact-fixed">
-            <div>
-              <a href="https://www.facebook.com/messages/t/103197575567673"><i class="fab fa-facebook-messenger"></i></a>    
-            </div>
-            <div>
-              <a href="tel:+84 938835138">
-                <i class="fas fa-phone-volume"></i>
-              </a>
-            </div>
-            <div>
-              <a href="https://zalo.me/0938835138">
-                <img src="./assets/Icon/zalo.png" alt="zalo_icon">
-              </a>
-            </div>
-            <div id="scroll-to-top" class="move-to-top-btn" onclick="topFunction()">
-              <i class="fa fa-angle-up" aria-hidden="true"></i>
-              <br/>
-              <p >TOP</p>
-            </div>  
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="./assets/Slider/slider1.jpg" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="./assets/Slider/slider2.jpg" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="./assets/Slider/slider3.jpg" alt="Second slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./section1/lien-he.html"
+                          >LIÊN HỆ</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./section1/gioi-thieu.html"
+                          >GIỚI THIỆU</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./section1/goc-chia-se.html"
+                          >GÓC CHIA SẼ</a
+                        >
+                      </li>
+                    </ul>
                   </div>
-            </div>
-        </div>
-      
-        <div class="introduction-figure container-fluid">
-          <div class="row mx-auto">
-
-            <div class="col-md-6">
-              <img src="./assets/Material/product-package-design-1.webp" alt="" class="w-100" />
-            </div>
-
-            <div class="col-md-6">
-              <div class="row align-items-center h-100 w-100">
-                <div class="col">
-                  <h1 class="md-display-5">GIỚI THIỆU</h1>
-                  <p class="text-justify"> <strong> Bao Bì Trung Nam Phát</strong> là đơn vị chuyên sản xuất và in ấn bao bì chuyên nghiệp tại TPHCM và TOÀN QUỐC.
-                  Hơn ai hết, chúng tôi hiểu rõ tầm quan trọng của bao bì đối với thương hiệu. Không chỉ đóng vai trò là vật dùng để để chứa đựng sản phẩm mà đây còn là một công cụ marketing rất tuyệt vời. <span> Chúng có thể để dễ dàng tiếp cận đến người dùng mà không cần tốn thêm bất kỳ chi phí phát sinh nào khác.
-                  Vì lý do đó, <strong>Bao Bì Trung Nam Phát</strong>  luôn cố gắng thực hiện tốt các khâu quan trọng: sản xuất bao bì, thiết kế bao bì độc đáo theo yêu cầu, in ấn bao bì, đóng gói,…nhằm mục đích tạo ra những sản phẩm đẹp nhất, chất lượng nhất đến tay quý khách hàng. </span> 
-                    <br /><br />
-                    <a href="" class="">Tìm hiểu thêm</a>
-                  </p>     
-                </div>
+                </nav>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="container-fuild">
-          <div>
-            <h2 class="service-section-horizon-line">
-              <b></b>
-              <span>DỊCH VỤ</span>
-              <b></b>
-            </h2>
+      </div>
+    </header>
+    <section>
+      <div id="contact-fixed">
+        <div>
+          <a href="https://www.facebook.com/messages/t/103197575567673"
+            ><i class="fab fa-facebook-messenger"></i
+          ></a>
+        </div>
+        <div>
+          <a href="tel:+84 938835138">
+            <i class="fas fa-phone-volume"></i>
+          </a>
+        </div>
+        <div>
+          <a href="https://zalo.me/0938835138">
+            <img src="./assets/Icon/zalo.png" alt="zalo_icon" />
+          </a>
+        </div>
+        <div id="scroll-to-top" class="move-to-top-btn" onclick="topFunction()">
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+          <br />
+          <p>TOP</p>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="./assets/Slider/slider1.jpg"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./assets/Slider/slider2.jpg"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./assets/Slider/slider3.jpg"
+                  alt="Second slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <div class="products-grids-card">
-          <div class="container d-flex justify-content-center mt-50 mb-50">     
+        </div>
+      </div>
+
+      <div class="introduction-figure container-fluid">
+        <div class="row mx-auto">
+          <div class="col-md-6">
+            <img
+              src="./assets/Material/product-package-design-1.webp"
+              alt=""
+              class="w-100"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <div class="row align-items-center h-100 w-100">
+              <div class="col">
+                <h1 class="md-display-5">GIỚI THIỆU</h1>
+                <p class="text-justify">
+                  <strong> Bao Bì Trung Nam Phát</strong> là đơn vị chuyên sản
+                  xuất và in ấn bao bì chuyên nghiệp tại TPHCM và TOÀN QUỐC. Hơn
+                  ai hết, chúng tôi hiểu rõ tầm quan trọng của bao bì đối với
+                  thương hiệu. Không chỉ đóng vai trò là vật dùng để để chứa
+                  đựng sản phẩm mà đây còn là một công cụ marketing rất tuyệt
+                  vời.
+                  <span>
+                    Chúng có thể để dễ dàng tiếp cận đến người dùng mà không cần
+                    tốn thêm bất kỳ chi phí phát sinh nào khác. Vì lý do đó,
+                    <strong>Bao Bì Trung Nam Phát</strong> luôn cố gắng thực
+                    hiện tốt các khâu quan trọng: sản xuất bao bì, thiết kế bao
+                    bì độc đáo theo yêu cầu, in ấn bao bì, đóng gói,…nhằm mục
+                    đích tạo ra những sản phẩm đẹp nhất, chất lượng nhất đến tay
+                    quý khách hàng.
+                  </span>
+                  <br /><br />
+                  <a href="" class="">Tìm hiểu thêm</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fuild">
+        <div>
+          <h2 class="service-section-horizon-line">
+            <b></b>
+            <span>DỊCH VỤ</span>
+            <b></b>
+          </h2>
+        </div>
+        <div class="products-grids-card">
+          <div class="container d-flex justify-content-center mt-50 mb-50">
             <div class="row">
-               <div class="col-md-4 mt-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="card-img-actions">                         
-                                    <a href="./section2/tui-xop.html"><img src="./assets/Tui-xop-nilon/Tui-nilon-anh bia.jpg" class="card-img img-fluid" width="96" height="350" alt=""></a>
-                            </div>
-                        </div>
-
-                        <div class="card-body bg-light text-center">
-                            <div class="mb-2">
-                                <h4 class="font-weight-semibold mb-2">
-                                    <a href="./section2/tui-xop.html" class="text-default mb-2" data-abc="true">TÚI XỐP, NILON</a>
-                                </h4>
-                            </div>
-
-                            <p class="text-justify">Sản xuất và in túi xốp, túi nilon: túi PE, túi PP,... theo mẫu kích thước có sẵn hoặc theo kích thước, màu sắc, chất liệu theo yêu cầu.</p>
-
-                            <button type="button" class="btn bg-cart" onclick="TuiXop()"> CHI TIẾT</button>
-                        </div>
-                    </div>             
-               </div>
-
-               <div class="col-md-4 mt-2">
+              <div class="col-md-4 mt-2">
                 <div class="card">
-                    <div class="card-body">
-                        <div class="card-img-actions">                         
-                                <a href="./section3/tem-nhan-decal.html"><img src="./assets/tem-nhan-decal/tem-nhan-decal-bia.jpg" class="card-img img-fluid" width="96" height="350" alt=""></a>
-                        </div>
+                  <div class="card-body">
+                    <div class="card-img-actions">
+                      <a href="./section2/tui-xop.html"
+                        ><img
+                          src="./assets/Tui-xop-nilon/Tui-nilon-anh bia.jpg"
+                          class="card-img img-fluid"
+                          width="96"
+                          height="350"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                      <h4 class="font-weight-semibold mb-2">
+                        <a
+                          href="./section2/tui-xop.html"
+                          class="text-default mb-2"
+                          data-abc="true"
+                          >TÚI XỐP, NILON</a
+                        >
+                      </h4>
                     </div>
 
-                    <div class="card-body bg-light text-center">
-                        <div class="mb-2">
-                            <h4 class="font-weight-semibold mb-2">
-                                <a href="./section3/tem-nhan-decal.html" class="text-default mb-2" data-abc="true">TEM, NHÃN, DECAL</a>
-                            </h4>
-                        </div>
+                    <p class="text-justify">
+                      Sản xuất và in túi xốp, túi nilon: túi PE, túi PP,... theo
+                      mẫu kích thước có sẵn hoặc theo kích thước, màu sắc, chất
+                      liệu theo yêu cầu.
+                    </p>
 
-                        <p class="text-justify">Giúp doanh nghiệp quảng bá & quản lý hàng hóa hiệu quả, giúp cho khách hàng trở thành những người tiêu dùng thông thái có sự lựa chọn phù hợp nhất.</p>
-
-                        <button type="button" onclick="TemNhan()" class="btn bg-cart"> CHI TIẾT</button>
-                    </div>
+                    <button
+                      type="button"
+                      class="btn bg-cart"
+                      onclick="TuiXop()"
+                    >
+                      CHI TIẾT
+                    </button>
+                  </div>
                 </div>
-               </div>
-               <div class="col-md-4 mt-2">
+              </div>
+
+              <div class="col-md-4 mt-2">
                 <div class="card">
-                    <div class="card-body">
-                        <div class="card-img-actions">                         
-                                <a href="./section4/bao-bi-thuc-pham.html"><img src="./assets/Bao-bi-thuc-pham/bao-bi-thuc-pham-bia.jpg" class="card-img img-fluid" width="96" height="350" alt=""></a>
-                        </div>
+                  <div class="card-body">
+                    <div class="card-img-actions">
+                      <a href="./section3/tem-nhan-decal.html"
+                        ><img
+                          src="./assets/tem-nhan-decal/tem-nhan-decal-bia.jpg"
+                          class="card-img img-fluid"
+                          width="96"
+                          height="350"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                      <h4 class="font-weight-semibold mb-2">
+                        <a
+                          href="./section3/tem-nhan-decal.html"
+                          class="text-default mb-2"
+                          data-abc="true"
+                          >TEM, NHÃN, DECAL</a
+                        >
+                      </h4>
                     </div>
 
-                    <div class="card-body bg-light text-center">
-                        <div class="mb-2">
-                            <h4 class="font-weight-semibold mb-2">
-                                <a href="./section4/bao-bi-thuc-pham.html" class="text-default mb-2" data-abc="true">BAO BÌ THỰC PHẨM</a>
-                            </h4>
-                        </div>
+                    <p class="text-justify">
+                      Giúp doanh nghiệp quảng bá & quản lý hàng hóa hiệu quả,
+                      giúp cho khách hàng trở thành những người tiêu dùng thông
+                      thái có sự lựa chọn phù hợp nhất.
+                    </p>
 
-                        <p class="text-justify">Được dùng để truyền đạt thông điệp của nhãn hàng cũng như lợi ích của sản phẩm, có sức ảnh hưởng trong việc dẫn dắt và kích thích người tiêu dùng.</p>
-
-                        <button type="button" class="btn bg-cart" onclick="ThucPham()"> CHI TIẾT</button>
-                    </div>
+                    <button
+                      type="button"
+                      onclick="TemNhan()"
+                      class="btn bg-cart"
+                    >
+                      CHI TIẾT
+                    </button>
+                  </div>
                 </div>
-               </div>
-               <div class="col-md-4 mt-2">
+              </div>
+              <div class="col-md-4 mt-2">
                 <div class="card">
-                    <div class="card-body">
-                        <div class="card-img-actions">                         
-                              <a href="./section5/bao-bi-giay.html"><img src="./assets/Bao-bi-giay/bao-bi-giay-bia.jpg" class="card-img img-fluid" width="96" height="350" alt=""> </a>
-                        </div>
-                             
+                  <div class="card-body">
+                    <div class="card-img-actions">
+                      <a href="./section4/bao-bi-thuc-pham.html"
+                        ><img
+                          src="./assets/Bao-bi-thuc-pham/bao-bi-thuc-pham-bia.jpg"
+                          class="card-img img-fluid"
+                          width="96"
+                          height="350"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                      <h4 class="font-weight-semibold mb-2">
+                        <a
+                          href="./section4/bao-bi-thuc-pham.html"
+                          class="text-default mb-2"
+                          data-abc="true"
+                          >BAO BÌ THỰC PHẨM</a
+                        >
+                      </h4>
                     </div>
 
-                    <div class="card-body bg-light text-center">
-                        <div class="mb-2">
-                            <h4 class="font-weight-semibold mb-2">
-                                <a href="./section5/bao-bi-giay.html" class="text-default mb-2" data-abc="true">BAO BÌ GIẤY</a>
-                            </h4>
-                        </div>
+                    <p class="text-justify">
+                      Được dùng để truyền đạt thông điệp của nhãn hàng cũng như
+                      lợi ích của sản phẩm, có sức ảnh hưởng trong việc dẫn dắt
+                      và kích thích người tiêu dùng.
+                    </p>
 
-                        <p class="text-justify">Được sử dụng phổ biến trên thị trường hiện nay, dùng cho hầu hết các lĩnh vực: nông nghiệp, công nghiệp, xây dựng</p>
-
-                        <button type="button" class="btn bg-cart" onclick="Giay()"> CHI TIẾT</button>
-                    </div>
+                    <button
+                      type="button"
+                      class="btn bg-cart"
+                      onclick="ThucPham()"
+                    >
+                      CHI TIẾT
+                    </button>
+                  </div>
                 </div>
-               </div>
-               <div class="col-md-4 mt-2">
+              </div>
+              <div class="col-md-4 mt-2">
                 <div class="card">
-                    <div class="card-body">
-                        <div class="card-img-actions">                         
-                                <a href="./section6/tui-zipper.html"><img src="./assets/Tui-zipper/tui-zip-du-size-bia-01.jpg" class="card-img img-fluid" width="96" height="350" alt=""></a>
-                        </div>
+                  <div class="card-body">
+                    <div class="card-img-actions">
+                      <a href="./section5/bao-bi-giay.html"
+                        ><img
+                          src="./assets/Bao-bi-giay/bao-bi-giay-bia.jpg"
+                          class="card-img img-fluid"
+                          width="96"
+                          height="350"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                      <h4 class="font-weight-semibold mb-2">
+                        <a
+                          href="./section5/bao-bi-giay.html"
+                          class="text-default mb-2"
+                          data-abc="true"
+                          >BAO BÌ GIẤY</a
+                        >
+                      </h4>
                     </div>
 
-                    <div class="card-body bg-light text-center">
-                        <div class="mb-2">
-                            <h4 class="font-weight-semibold mb-2">
-                                <a href="./section6/tui-zipper.html" class="text-default mb-2" data-abc="true">TÚI ZIPPER</a>
-                            </h4>
-                        </div>
+                    <p class="text-justify">
+                      Được sử dụng phổ biến trên thị trường hiện nay, dùng cho
+                      hầu hết các lĩnh vực: nông nghiệp, công nghiệp, xây dựng
+                    </p>
 
-                        <p class="text-justify">Được cấu tạo từ chất liệu PE. Đặc tính không mùi, bền dẻo, chống bụi, cách li với nước tốt... có nhiều ứng dụng trong cuộc sống..</p>
-
-                        <button type="button" onclick="Zipper()" class="btn bg-cart"> CHI TIẾT</button>
-                    </div>
+                    <button type="button" class="btn bg-cart" onclick="Giay()">
+                      CHI TIẾT
+                    </button>
+                  </div>
                 </div>
-               </div>
-               <div class="col-md-4 mt-2">
+              </div>
+              <div class="col-md-4 mt-2">
                 <div class="card">
-                    <div class="card-body">
-                        <div class="card-img-actions">                         
-                                <a href="./section7/bao-bi-banh-keo.html"><img src="./assets/Bao-bi-banh-keo/bao-bi-banh-keo-bia3-01.jpg" class="card-img img-fluid" width="96" height="350" alt=""></a>
-                        </div>
+                  <div class="card-body">
+                    <div class="card-img-actions">
+                      <a href="./section6/tui-zipper.html"
+                        ><img
+                          src="./assets/Tui-zipper/tui-zip-du-size-bia-01.jpg"
+                          class="card-img img-fluid"
+                          width="96"
+                          height="350"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                      <h4 class="font-weight-semibold mb-2">
+                        <a
+                          href="./section6/tui-zipper.html"
+                          class="text-default mb-2"
+                          data-abc="true"
+                          >TÚI ZIPPER</a
+                        >
+                      </h4>
                     </div>
 
-                    <div class="card-body bg-light text-center">
-                        <div class="mb-2">
-                            <h4 class="font-weight-semibold mb-2">
-                                <a href="./section7/bao-bi-banh-keo.html" class="text-default mb-2" data-abc="true">BAO BÌ BÁNH KẸO</a>
-                            </h4>
-                        </div>
+                    <p class="text-justify">
+                      Được cấu tạo từ chất liệu PE. Đặc tính không mùi, bền dẻo,
+                      chống bụi, cách li với nước tốt... có nhiều ứng dụng trong
+                      cuộc sống..
+                    </p>
 
-                        <p class="text-justify">Được thiết kế theo phong cách fancy, bắt mắt, mẫu mã luôn rất đa dạng và không ngừng phát triển để có thể dễ dàng thu hút khách hàng đặc biệt là trẻ nhỏ.</p>
-
-                        <button type="button" class="btn bg-cart" onclick="BanhKeo()"> CHI TIẾT</button>
-                    </div>
+                    <button
+                      type="button"
+                      onclick="Zipper()"
+                      class="btn bg-cart"
+                    >
+                      CHI TIẾT
+                    </button>
+                  </div>
                 </div>
-               </div>          
-           </div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-img-actions">
+                      <a href="./section7/bao-bi-banh-keo.html"
+                        ><img
+                          src="./assets/Bao-bi-banh-keo/bao-bi-banh-keo-bia3-01.jpg"
+                          class="card-img img-fluid"
+                          width="96"
+                          height="350"
+                          alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="card-body bg-light text-center">
+                    <div class="mb-2">
+                      <h4 class="font-weight-semibold mb-2">
+                        <a
+                          href="./section7/bao-bi-banh-keo.html"
+                          class="text-default mb-2"
+                          data-abc="true"
+                          >BAO BÌ BÁNH KẸO</a
+                        >
+                      </h4>
+                    </div>
+
+                    <p class="text-justify">
+                      Được thiết kế theo phong cách fancy, bắt mắt, mẫu mã luôn
+                      rất đa dạng và không ngừng phát triển để có thể dễ dàng
+                      thu hút khách hàng đặc biệt là trẻ nhỏ.
+                    </p>
+
+                    <button
+                      type="button"
+                      class="btn bg-cart"
+                      onclick="BanhKeo()"
+                    >
+                      CHI TIẾT
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>         
         </div>
       </div>
 
@@ -316,25 +624,24 @@
         <div class="row">
           <div class="col-md-4">
             <div class="business-area-item">
-              <img src="./assets/Slider/linh-vuc-kinh-doanh-1.jpg" alt="">
+              <img src="./assets/Slider/linh-vuc-kinh-doanh-1.jpg" alt="" />
               <span>THIẾT KẾ BAO BÌ</span>
             </div>
           </div>
           <div class="col-md-4">
             <div class="business-area-item">
-              <img src="./assets/Slider/linh-vuc-kinh-doanh-2.jpg" alt="">
+              <img src="./assets/Slider/linh-vuc-kinh-doanh-2.jpg" alt="" />
               <span>IN TRỤC ĐỒNG</span>
             </div>
           </div>
           <div class="col-md-4">
             <div class="business-area-item">
-              <img src="./assets/Slider/linh-vuc-kinh-doanh-3.jpg" alt="">
+              <img src="./assets/Slider/linh-vuc-kinh-doanh-3.jpg" alt="" />
               <span>IN OFFSET</span>
             </div>
           </div>
         </div>
       </div>
-
 
       <div class="container-fuild">
         <div>
@@ -346,112 +653,160 @@
         </div>
         <div class="row best-seller-slider">
           <div class="col-md-12">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-            <!-- Carousel indicators -->
-            <ol id="carousel-control" class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-            </ol>   
-            <!-- Wrapper for carousel items -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img src="./assets/Bao-bi-giay/tui-giay-ghep-man-nhom/Tui-giai-ghep-mang-nhom-bia.png" class="img-fluid" alt="">
+            <div
+              id="myCarousel"
+              class="carousel slide"
+              data-ride="carousel"
+              data-interval="0"
+            >
+              <!-- Carousel indicators -->
+              <ol id="carousel-control" class="carousel-indicators">
+                <li
+                  data-target="#myCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            src="./assets/Bao-bi-giay/tui-giay-ghep-man-nhom/Tui-giai-ghep-mang-nhom-bia.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>BAO BÌ GIẤY</h4>
+                        </div>
                       </div>
-                      <div class="thumb-content">
-                        <h4>BAO BÌ GIẤY</h4>
-                      </div>						
+                    </div>
+                    <div class="col-md-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            src="./assets/Tui-zipper/tui-zipper-bac-day-dung/Tui-zipper-bac-day-dung-bia.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>TÚI ZIPPER BẠC ĐÁY ĐỨNG</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            src="./assets/Tui-xop-nilon/pe-hot-xoai/tui-bong-pe-hot-xoai.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>TÚI NILON ĐỤC LỖ XOÀI</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            src="./assets/Bao-bi-banh-keo/banh-snack/Bao-bi-banh-snack-bia.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>BAO BÌ BÁNH SNACK</h4>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img src="./assets/Tui-zipper/tui-zipper-bac-day-dung/Tui-zipper-bac-day-dung-bia.png" class="img-fluid" alt="">
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            src="./assets/Bao-bi-thuc-pham/bao-bi-pho-an-lien/bao-bi-pho-bia.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>BAO BÌ MÌ PHỞ</h4>
+                        </div>
                       </div>
-                      <div class="thumb-content">
-                        <h4>TÚI ZIPPER BẠC ĐÁY ĐỨNG</h4>
-                      </div>						
                     </div>
-                  </div>		
-                  <div class="col-md-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img src="./assets/Tui-xop-nilon/pe-hot-xoai/tui-bong-pe-hot-xoai.png" class="img-fluid" alt="">
+                    <div class="col-md-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            src="./assets/tem-nhan-decal/decal-7-mau/DECAL-7-MAU-BIA.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>DECAL 7 MÀU</h4>
+                        </div>
                       </div>
-                      <div class="thumb-content">
-                        <h4>TÚI NILON ĐỤC LỖ XOÀI</h4>
-                      </div>						
                     </div>
-                  </div>								
-                  <div class="col-md-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img src="./assets/Bao-bi-banh-keo/banh-snack/Bao-bi-banh-snack-bia.png" class="img-fluid" alt="">
+                    <div class="col-md-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            src="./assets/tem-nhan-decal/decal-xi-bac/DECAL-XI-BAC-BIA.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>DECAL XI BẠC</h4>
+                        </div>
                       </div>
-                      <div class="thumb-content">
-                        <h4>BAO BÌ BÁNH SNACK</h4>
-                      </div>						
+                    </div>
+                    <div class="col-md-3">
+                      <div class="thumb-wrapper">
+                        <div class="img-box">
+                          <img
+                            src="./assets/Bao-bi-thuc-pham/bao-bi-ca-phe/bao-bi-ca-phe-bia.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>BAO BÌ CÀ PHÊ</h4>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img src="./assets/Bao-bi-thuc-pham/bao-bi-pho-an-lien/bao-bi-pho-bia.png" class="img-fluid" alt="">
-                      </div>
-                      <div class="thumb-content">
-                        <h4>BAO BÌ MÌ PHỞ</h4>
-                      </div>						
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img src="./assets/tem-nhan-decal/decal-7-mau/DECAL-7-MAU-BIA.png" class="img-fluid" alt="">
-                      </div>
-                      <div class="thumb-content">
-                        <h4>DECAL 7 MÀU</h4>
-                      </div>						
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img src="./assets/tem-nhan-decal/decal-xi-bac/DECAL-XI-BAC-BIA.png" class="img-fluid" alt="">
-                      </div>
-                      <div class="thumb-content">
-                        <h4>DECAL XI BẠC</h4>
-                      </div>						
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img src="./assets/Bao-bi-thuc-pham/bao-bi-ca-phe/bao-bi-ca-phe-bia.png" class="img-fluid" alt="">
-                      </div>
-                      <div class="thumb-content">
-                        <h4>BAO BÌ CÀ PHÊ</h4>
-                      </div>						
-                    </div>
-                  </div>             
-                </div>
-              </div>
+              <!-- Carousel controls -->
+              <a
+                class="button-control-slider carousel-control-prev"
+                href="#myCarousel"
+                data-slide="prev"
+              >
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a
+                class="button-control-slider carousel-control-next"
+                href="#myCarousel"
+                data-slide="next"
+              >
+                <i class="fa fa-angle-right"></i>
+              </a>
             </div>
-            <!-- Carousel controls -->
-            <a class="button-control-slider carousel-control-prev " href="#myCarousel" data-slide="prev">
-              <i class="fa fa-angle-left"></i>
-            </a>
-            <a class="button-control-slider carousel-control-next " href="#myCarousel" data-slide="next">
-              <i class="fa fa-angle-right"></i>
-            </a>
-          </div>
           </div>
         </div>
       </div>
@@ -464,60 +819,77 @@
           </h2>
         </div>
         <div class="row">
-            <div class="col-md-4">
-              <div class="reason-selection-container">
-                <img src="./assets/Icon/shield-check.png" alt="">
-                <div class="reason-selection-container__content">
-                  <h4>Chất lượng in ấn</h4>
-                  <p>Chúng tôi sử dụng các công nghệ in ấn và thành phẩm tiên tiến tại Việt Nam để cho ra các sản phẩm chất lượng cao</p>
-                </div>
+          <div class="col-md-4">
+            <div class="reason-selection-container">
+              <img src="./assets/Icon/shield-check.png" alt="" />
+              <div class="reason-selection-container__content">
+                <h4>Chất lượng in ấn</h4>
+                <p>
+                  Chúng tôi sử dụng các công nghệ in ấn và thành phẩm tiên tiến
+                  tại Việt Nam để cho ra các sản phẩm chất lượng cao
+                </p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="reason-selection-container">
-                <img src="./assets/Icon/timer-color.png" alt="">
-                <div class="reason-selection-container__content">
-                  <h4>Thời gian hoàn thành</h4>
-                  <p>Chúng tôi cam kết sản phẩm đến tay quý khách hàng trong thời gian nhanh nhất và đúng hẹn</p>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="reason-selection-container">
+              <img src="./assets/Icon/timer-color.png" alt="" />
+              <div class="reason-selection-container__content">
+                <h4>Thời gian hoàn thành</h4>
+                <p>
+                  Chúng tôi cam kết sản phẩm đến tay quý khách hàng trong thời
+                  gian nhanh nhất và đúng hẹn
+                </p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="reason-selection-container">
-                <img src="./assets/Icon/customer.png" alt="">
-                <div class="reason-selection-container__content">
-                  <h4>Dịch vụ khách hàng</h4>
-                  <p>Chúng tôi luôn có nhiều ưu đãi cho khách hàng mới và chính sách tốt cho khách hàng thân thiết</p>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="reason-selection-container">
+              <img src="./assets/Icon/customer.png" alt="" />
+              <div class="reason-selection-container__content">
+                <h4>Dịch vụ khách hàng</h4>
+                <p>
+                  Chúng tôi luôn có nhiều ưu đãi cho khách hàng mới và chính
+                  sách tốt cho khách hàng thân thiết
+                </p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="reason-selection-container">
-                <img src="./assets/Icon/light-bulb.png" alt="">
-                <div class="reason-selection-container__content">
-                  <h4>Thiết kế độc đáo</h4>
-                  <p>Chúng tôi mang đến khách hàng những mẫu thiết kế ấn tượng và độc đáo</p>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="reason-selection-container">
+              <img src="./assets/Icon/light-bulb.png" alt="" />
+              <div class="reason-selection-container__content">
+                <h4>Thiết kế độc đáo</h4>
+                <p>
+                  Chúng tôi mang đến khách hàng những mẫu thiết kế ấn tượng và
+                  độc đáo
+                </p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="reason-selection-container">
-                <img src="./assets/Icon/shipped.png" alt="">
-                <div class="reason-selection-container__content">
-                  <h4>Giao hàng đúng hạn</h4>
-                  <p>Chúng tôi cam kết giao hàng đúng ngày đã thỏa thuận trong hợp đồng</p>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="reason-selection-container">
+              <img src="./assets/Icon/shipped.png" alt="" />
+              <div class="reason-selection-container__content">
+                <h4>Giao hàng đúng hạn</h4>
+                <p>
+                  Chúng tôi cam kết giao hàng đúng ngày đã thỏa thuận trong hợp
+                  đồng
+                </p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="reason-selection-container">
-                <img src="./assets/Icon/money.png" alt="">
-                <div class="reason-selection-container__content">
-                  <h4>Giá luôn ổn định</h4>
-                  <p>Chúng tôi luôn đảm bảo giá thành in ấn luôn hợp lý và ổn định</p>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="reason-selection-container">
+              <img src="./assets/Icon/money.png" alt="" />
+              <div class="reason-selection-container__content">
+                <h4>Giá luôn ổn định</h4>
+                <p>
+                  Chúng tôi luôn đảm bảo giá thành in ấn luôn hợp lý và ổn định
+                </p>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </section>
@@ -526,49 +898,79 @@
         <div class="row">
           <div class="footer-part-1 col-md-4">
             <h3>GIỚI THIỆU</h3>
-            <img src="./assets/Icon/logo_white.png" alt="" >
-            <p>Bao Bì Trung Nam Phát chuyên thiết kế & in ấn bao bì, tem, nhãn, decal giá rẻ theo yêu cầu</p>
+            <img src="./assets/Icon/logo_white.png" alt="" />
+            <p>
+              Bao Bì Trung Nam Phát chuyên thiết kế & in ấn bao bì, tem, nhãn,
+              decal giá rẻ theo yêu cầu
+            </p>
             <div class="footer-contact-icon">
               <div class="col item social">
-                <a href="https://www.facebook.com/baobitrungnamphat"><i class="fab fa-facebook"></i></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/baobitrungnamphat"
+                  ><i class="fab fa-facebook"></i></a
+                ><a href="#"><i class="fab fa-twitter"></i></a
+                ><a href="#"><i class="fab fa-instagram"></i></a>
               </div>
             </div>
           </div>
           <div class="footer-part-2 col-md-4">
             <h3>LIÊN HỆ</h3>
-            <p><i class="far fa-clock" ></i> Thời gian làm việc T2 - T7 : 8.00AM - 17.30PM</p>
-            <p><i class="fa fa-location-arrow" aria-hidden="true"></i> Địa chỉ: 74/13/7, Liên khu 2-5, P.Bình Trị Đông, Q.Bình Tân, TP.HCM</p>
+            <p>
+              <i class="far fa-clock"></i> Thời gian làm việc T2 - T7 : 8.00AM -
+              17.30PM
+            </p>
+            <p>
+              <i class="fa fa-location-arrow" aria-hidden="true"></i> Địa chỉ:
+              74/13/7, Liên khu 2-5, P.Bình Trị Đông, Q.Bình Tân, TP.HCM
+            </p>
             <p><i class="far fa-star"> </i> Website: baobitrungnamphat.com</p>
-            <p><i class="fas fa-mail-bulk"></i> Email: baobitrungnamphat@gmail.com</p>
+            <p>
+              <i class="fas fa-mail-bulk"></i> Email:
+              baobitrungnamphat@gmail.com
+            </p>
           </div>
           <div class="footer-part-3 col-md-4">
-            <h3></i>HOTLINE</h3>
-            <p><a style="color: white" href="tel:+84 988392823"><i class="fa fa-phone" aria-hidden="true"></i> 0988392823 - Mr Tùng</a></p>
-            <p><a style="color: white" href="tel:+84 938835138"><i class="fa fa-phone" aria-hidden="true"></i> 0938835138- Ms Tiên</a></p>
+            <h3>HOTLINE</h3>
+            <p>
+              <a style="color: white" href="tel:+84 988392823"
+                ><i class="fa fa-phone" aria-hidden="true"></i> 0988392823 - Mr
+                Tùng</a
+              >
+            </p>
+            <p>
+              <a style="color: white" href="tel:+84 938835138"
+                ><i class="fa fa-phone" aria-hidden="true"></i> 0938835138- Ms
+                Tiên</a
+              >
+            </p>
           </div>
         </div>
-      </div> 
+      </div>
     </footer>
     <script>
       //Get the button
-          var mybutton = document.getElementById("scroll-to-top");
-          
-          // When the user scrolls down 20px from the top of the document, show the button
-          window.onscroll = function() {scrollFunction()};
-          
-          function scrollFunction() {
-              if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-              mybutton.style.display = "block";
-              } else {
-              mybutton.style.display = "none";
-              }
-          }
-          
-          // When the user clicks on the button, scroll to the top of the document
-          function topFunction() {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
-          }
-      </script>
-</body>
+      var mybutton = document.getElementById("scroll-to-top");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 250 ||
+          document.documentElement.scrollTop > 250
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
 </html>
