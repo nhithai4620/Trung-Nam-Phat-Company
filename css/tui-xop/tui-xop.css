@@ -122,7 +122,35 @@
     font-weight: 600;
 }
 
+.mobile-banner {
+    display: none;
+}
+
 @media screen and (max-width: 766px) {
+    .mobile-banner {
+        display: block;
+    }
+
+    .mobile-banner img {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .service-products .d-flex>div {
+        width: 140px;
+        height: auto;
+        margin: 10px;
+        gap: 5px;
+    }
+
+    .service-products .d-flex>div img {
+        width: 100%;
+        max-width: 140px;
+        height: auto;
+    }
+
     .hide {
         display: none;
     }
